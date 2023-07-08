@@ -1,0 +1,65 @@
+/* * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} */
+body{
+   background-image: url(../images/tree-736877_1280.jpg);
+}
+.parent{
+   position: relative;
+   width: 90%;
+   
+}
+
+.parent div{
+   width: 10%;
+   height: 120px;
+   background-image: url(../images/owl-50267_1280.jpg);
+   background-size: cover;
+   background-position: center;
+   position: absolute; 
+  
+}
+.D1{
+    animation:sasa 2s linear 1s  1 alternate forwards;
+    margin-top: 5px;
+ }
+ @keyframes sasa {
+   0%{
+      left:0 ;
+   }
+   100%{
+      left: 100%;  
+   }
+}
+/* ------------------------------------------------- */
+.D2{
+   margin-top:  125px; 
+   animation:sasa2 2s linear 3s  1 alternate backwards;
+}
+@keyframes sasa2 {
+   0%{
+      right:0 ;
+   }
+   100%{
+      right: 100%;  
+   }
+}
+.D3{
+   margin-top:250px ;
+   animation:sasa 2s linear 5s  1 alternate forwards;
+}
+.D4{
+   margin-top: 375px;
+   animation:sasa2 2s linear 7s  1 alternate backwards;
+}
+.D5{
+   margin-top: 500px;
+   animation:sasa 2s linear 9s  1 alternate forwards;
+}
+
+.D6{
+   margin-top: 625px;
+   animation:sasa2 2s linear 11s  1 alternate backwards;
+}
